@@ -46,7 +46,7 @@ public class TruckMovement : MonoBehaviour
     
     private void ApplyTurning(float turningThisFrame)
     {
-        transform.Translate(Vector2.down * turningThisFrame * Time.fixedDeltaTime);
+        transform.Translate(Vector2.down * turningThisFrame * Time.fixedDeltaTime * 0.5f);
     }
     
     private void ProcessXAxis()
@@ -64,7 +64,7 @@ public class TruckMovement : MonoBehaviour
     
     private void ApplyThrottle(float throttleThisFrame)
     {
-        transform.Translate(Vector2.left * throttleThisFrame * Time.fixedDeltaTime);
+        transform.Translate(Vector2.left * throttleThisFrame * Time.fixedDeltaTime * 0.5f);
     }
     
     public void OnCollisionEnter2D(Collision2D other)

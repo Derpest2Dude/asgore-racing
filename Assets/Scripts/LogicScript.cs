@@ -11,7 +11,7 @@ public class LogicScript : MonoBehaviour
 {
     public int playerScore;
     public float timerScore;
-    private float timerInterval = 1;
+    private float timerInterval = 0.0003f;
     private int timerDisplay = 0;
     private bool gameStarted = false;
     
@@ -69,8 +69,9 @@ public class LogicScript : MonoBehaviour
         {
             timerScore += Time.deltaTime;
         }
-        else if (gameStarted)     
+        else if (gameStarted)
         {
+            timerScore = 0;
             timerDisplay += 1;
             timerText.text = timerDisplay.ToString();
         }

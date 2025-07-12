@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      deer sign_0: 4198461156281076294
+      deer sign_1: 3114899440289016108
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

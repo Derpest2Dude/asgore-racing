@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pothole_0: -3507394279127233086
+      pothole_1: -3395100775029285721
+      pothole_2: -1027775817434171244
+      pothole_3: -1638275828845930050
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
